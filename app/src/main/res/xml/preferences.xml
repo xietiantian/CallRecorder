@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_recording_category" >
+        <CheckBoxPreference
+            android:key="RecordingIncomingEnabled"
+            android:title="@string/pref_incoming_calls"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="RecordingOutgoingEnabled"
+            android:title="@string/pref_outgoing_calls"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_storage_category" >
+        <ListPreference
+            android:dialogTitle="请选择一项"
+            android:key="FilesDirectoryNew"
+            android:defaultValue="1"
+            android:summary="@string/pref_location_summary"
+            android:title="@string/pref_location" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_automatic_cleaning_category" >
+        <ListPreference
+            android:dialogTitle="请选择一项"
+            android:entries="@array/entries_autoclean_frequency_preference"
+            android:entryValues="@array/entries_autoclean_frequency_value"
+            android:key="OlderThan"
+            android:defaultValue="NEVER"
+            android:summary="@string/pref_automatic_cleaning_summary"
+            android:title="@string/pref_automatic_cleaning_frequency" />
+    </PreferenceCategory>
+</PreferenceScreen>

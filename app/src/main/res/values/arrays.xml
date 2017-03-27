@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_autoclean_frequency_preference">
+        <item>NEVER</item>
+        <item>DAILY</item>
+        <item>THREE_DAYS</item>
+        <item>WEEKLY</item>
+        <item>MONTHLY</item>
+        <item>QUARTERLY</item>
+        <item>YEARLY</item>
+    </string-array>
+    <string-array name="entries_autoclean_frequency_value">
+        <item>NEVER</item>
+        <item>DAILY</item>
+        <item>THREE_DAYS</item>
+        <item>WEEKLY</item>
+        <item>MONTHLY</item>
+        <item>QUARTERLY</item>
+        <item>YEARLY</item>
+    </string-array>
+</resources>

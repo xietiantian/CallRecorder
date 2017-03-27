@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_autoclean_frequency_preference">
+        <item>从不</item>
+        <item>每天</item>
+        <item>每三天</item>
+        <item>每周</item>
+        <item>每月</item>
+        <item>每季度</item>
+    </string-array>
+    <string-array name="entries_autoclean_frequency_value">
+        <item>NEVER</item>
+        <item>DAILY</item>
+        <item>THREE_DAYS</item>
+        <item>WEEKLY</item>
+        <item>MONTHLY</item>
+        <item>QUARTERLY</item>
+        <item>YEARLY</item>
+    </string-array>
+</resources>

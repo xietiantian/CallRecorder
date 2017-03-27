@@ -1,0 +1,79 @@
+<resources>
+
+    <string name="app_name">通话录音</string>
+
+    <string name="action_delete_all">删除所有</string>
+    <string name="action_delete">删除所选</string>
+    <string name="action_share">分享所选</string>
+    <string name="action_save">保存所选</string>
+
+    <string name="error_path_missing">无效的存储路径</string>
+
+    <string name="action_add">添加联系人</string>
+    <string name="email_title">通话录音</string>
+    <string name="email_body">录音由tiantian的通话录音软件录制</string>
+    <string name="email_body_html"><![CDATA[<p>录音由tiantian的通话录音软件录制</p>]]></string>
+    <string name="action_settings">设置</string>
+    <string name="action_whitelist">白名单</string>
+    <string name="add_contact">添加联系人</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="press_back_again">"再按一次返回键退出"</string>
+    <string name="incoming">来电录音</string>
+    <string name="outgoing">去电录音</string>
+    <string name="all">所有录音</string>
+
+    <string name="delete_recording_title">删除录音</string>
+    <string name="delete_recording_subject">确认删除选中的录音？</string>
+    <string name="delete_whitelist_title">移除联系人</string>
+    <string name="delete_whitelist_subject">确认从白名单上移除所选联系人？</string>
+    <string name="delete_all_recording_subject">确定删除所有通话录音？</string>
+    <string name="dialog_yes">是</string>
+    <string name="dialog_no">否</string>
+    <string name="dialog_ok">好的</string>
+    <string name="dialog_cancel">取消</string>
+
+    <string name="permission_whitelist_title">缺少权限</string>
+    <string name="permission_whitelist">白名单需要读取联系人的权限。请授予本应用读取联系人的权限。</string>
+    <string name="toggle_off">Off</string>
+    <string name="toggle_on">On</string>
+    <string name="title_activity_settings">设置</string>
+
+    <string name="str_access_permissions">通话录音需要读取您的联系人来区分您的通话对象，避免所选的白名单上的联系人与您的通话被录音。</string>
+    <string name="str_write_external_permission">通话录音需要读写您的扩展存储卡来存储录音文件。</string>
+
+    <string name="pref_incoming_calls">来电录音</string>
+    <string name="pref_outgoing_calls">去电录音</string>
+    <string name="pref_storage_category">存储设置</string>
+    <string name="pref_location">录音存储位置</string>
+    <string name="pref_location_summary">选择存储位置.</string>
+    <string name="pref_folder_name">路径: \"calls\"</string>
+    <string name="pref_folder_total_files"><![CDATA[所有录音: <b>%d</b>]]></string>
+    <string name="pref_folder_total_files_size"><![CDATA[占用存储空间: <b>%d KB</b>]]></string>
+    <string name="pref_folder_total_folder_size"><![CDATA[可用存储空间: <b>%1.2f MB</b>]]></string>
+    <string name="pref_automatic_cleaning_category">自动清理设置</string>
+    <string name="pref_automatic_cleaning_summary">选择自动清理频率.</string>
+    <string name="pref_automatic_cleaning_frequency">清理录音</string>
+    <string name="pref_automatic_cleaning_now">现在清理</string>
+    <string name="pref_recording_category">录音设置</string>
+
+    <string-array name="pref_frequencies">
+        <item name="never">从不</item>
+        <item name="daily">每天</item>
+        <item name="3days">每三天</item>
+        <item name="weekly">每周</item>
+        <item name="monthly">每月</item>
+        <item name="quarterly">每季度</item>
+    </string-array>
+
+    <string name="notification_title">新的通话录音</string>
+    <string name="notification_text">一个通话被录音</string>
+    <string name="notification_more_text">点击播放</string>
+
+    <string name="action_remove">移除联系人</string>
+    <string name="action_select">选择</string>
+    <string name="white_list_duplicate">联系人已经在白名单中了。</string>
+    <string name="folder_name">通话录音</string>
+
+
+</resources>
